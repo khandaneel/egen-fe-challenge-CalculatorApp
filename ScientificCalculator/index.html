@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Scientific Calculator</title>
+
+    <link rel="stylesheet" href="./assets/stylesheets/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/stylesheets/bootstrap-responsive.min.css" />
+    <link rel="stylesheet" href="./assets/stylesheets/application.css" />
+
+    <script src="./assets/javascripts/jquery-1.9.1.js"></script>
+    <script src="./assets/javascripts/calculator.js"></script>
+  </head>
+  <body>
+
+
+
+
+    <div class="container">
+
+      <div class="hero-unit" id="calculator-wrapper">
+        <div class="row-fluid">
+          <div class="span4">
+            <input type="text" name="soption1" id="soption1" class="editable-input" style="width:150px; height:40px; ">
+          </div>
+          <div class="span1" style="text-align: center;">
+            <div class="visible-phone">
+              =
+            </div>
+            <div class="hidden-phone">
+              =
+            </div>
+          </div>
+          <div class="span3">
+            <div id="sresultval"  class="uneditable-input">0</div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row-fluid">
+
+        <div class="well">
+          <div id="calc-board">
+
+
+            <div class="row-fluid">
+
+               <a href="#" class="btn" data-constant="SIN" id="sinbutton">Sin</a>
+              <a href="#" class="btn" data-constant="COS" id="cosbutton">Cos</a>
+              <a href="#" class="btn" data-constant="MOD" id="tanbutton">Tan</a>
+              <a href="#" class="btn" data-constant="BRO" id="logbutton">Log</a>
+<a href="#" class="btn btn-danger" data-method="reset" id="clear" >C</a>
+     
+            </div>
+         
+           
+       
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+  </body>
+</html>
